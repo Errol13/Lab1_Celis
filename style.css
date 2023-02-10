@@ -1,0 +1,222 @@
+.header{
+	font-family:Garamond;
+	font: 23px;
+	display: flex;
+	align-items: justify;
+}
+.headcol {
+	flex:2;
+	padding: 6px;
+}
+#contact {
+	margin-top: 80px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	line-height: 80px;
+	margin-left: 60px;
+}
+.firstcol{
+	font-family:Garamond;
+	font-size: 16px;
+	display: flex;
+	width: 100%;
+	column-gap: 50px;
+}
+.col {
+	flex:1;
+	padding:2px;
+	margin-top: -8px;
+}
+
+table {
+	float: center;
+	margin-top: -155px;
+	margin-left: 690px;
+}
+.listcol {
+	letter-spacing: 1px;
+	line-height:20px;
+}
+.listcol2 {
+	letter-spacing:2px;
+	line-height:25px;
+}
+
+#idpic {
+	border-radius: 50%;
+	border: 1px solid black;
+	border-color:brown;
+	margin-bottom: 30px;
+	margin-top: -10px;
+	width:200px;
+	height:200x;
+}
+#fname {
+	font-weight: lighter;
+	font-size: 30px;
+	letter-spacing: 10px;
+	margin-top: -5px;
+}
+#lname {
+	font-weight:bolder;
+	font-size: 35px;
+	margin-top: -20px;
+	letter-spacing: 3px;
+}
+body {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+#tborder {
+	border-top: 20px black solid;
+	border-top-color: #b99976;
+	margin-bottom:10px;
+}
+#bborder {
+	border-bottom: 20px black solid;
+	border-bottom-color: #b99976;
+	margin-top:10px;
+}
+#intern {
+	text-align:;
+	font-family:Garamond;
+	letter-spacing: 2px;
+	margin-left: 58px;
+	margin-top: -15px;
+}
+.about {
+	font-size: 16px;
+	margin-top: -5px;
+	letter-spacing: 3px;
+}
+#aboutme {
+	margin-top: -8px;
+	text-align:left;
+	margin-right: 30px;
+}
+.gap1 {
+	border-top: 5px black solid;
+	border-top-color: #b99976;
+	margin-bottom: -12px;
+	
+}
+.gap2 {
+	border-top: 3px black solid;
+	border-top-color: #b99976;
+	margin-bottom: -12px;
+	width:100%;
+}
+
+#icon{
+	margin-bottom: -7px;
+}
+#drop {
+	background:#954535;
+	color: white;
+	padding: 10px;
+	border-radius: 5%;
+	text-decoration:none;
+	
+}
+/*stylesheet for contact page */
+#contactbody {
+	background-image:url("bg-icon.jpg");
+	background-color:light blue;
+	background-size: cover;
+	text-align: center;
+	margin-top: 50px;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	font-family: Garamond;
+}
+input[type="text"]{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-bottom:6px;
+	margin-top:6px;
+	width: 250px;
+	border: 0.1px solid #d5c1aa;
+}
+input[type="email"]{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-bottom:6px;
+	margin-top:6px;
+	width: 250px;
+	border: 0.1px solid #d5c1aa;
+}
+input[type="submit"]{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom:6px;
+	margin-top:6px;
+	background-color:green;
+	border: 0.1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	margin-right: 6px;
+	margin-left: 6px;
+	letter-spacing: 2px;
+}
+input[type="reset"]{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top:6px;
+	background-color:red;
+	border: 0.1px solid black;
+	border-radius: 5px 5px 5px 5px;
+	color: white;
+	margin-right: 6px;
+	margin-left: 6px;
+	letter-spacing: 2px;
+}
+textarea{
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-bottom: 6px;
+	padding-top: 6px;
+	margin-bottom:6px;
+	margin-top:6px;
+	margin-right: 26px;
+	margin-left: 26px;
+	border: 1px solid #d5c1aa;
+}
+
+#headercon {
+	color: black;
+}
+fieldset {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 20px;
+	background-color: white;
+	border: 10px double #773f1a;
+	border-radius: 15px 15px 15px 15px;
+}
+.fbsize{
+	width:75px;
+	height:43px;
+	margin-right:13px;
+	margin-left:-11px;
+	margin-bottom: -2px;
+}
+.gitsize{
+	width:40px;
+	height:40px;
+	margin-left:15px;
+}
+.celis-logo {
+	width:100px;
+	height:60px;
+	border-radius: 25px 25px 25px 25px;
+}
